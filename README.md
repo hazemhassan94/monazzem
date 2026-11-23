@@ -20,7 +20,7 @@ flutter build apk --release --split-per-abi --split-debug-info=build/symbols
 
 ## النشر على GitHub Pages
 - ارفع ملفات المشروع إلى مستودع GitHub على الفرع `main`. ملف `.github/workflows/deploy-pages.yml` يبني نسخة الويب وينشرها تلقائيًا بعد كل push، مع ضبط مسار المشروع تلقائيًا.
-- من المستودع افتح **Settings → Pages** واختر **GitHub Actions** كمصدر النشر. بعد نجاح سير العمل، افتح الرابط الظاهر في **Actions → Deploy Flutter web app to GitHub Pages**.
+- سير العمل يفعّل GitHub Pages تلقائيًا وينشر النسخة. بعد نجاحه، افتح الرابط الظاهر في **Actions → Deploy Flutter web app to GitHub Pages**.
 - افتح الرابط أول مرة من Safari على الآيفون مع اتصال الإنترنت، ثم اختر **مشاركة → إضافة إلى الشاشة الرئيسية**. شغّل التطبيق مرة وهو متصل حتى يكتمل التخزين؛ بعد ذلك تعمل الواجهة والأيقونات دون إنترنت. بيانات التطبيق محفوظة على الجهاز نفسه ولا تُزامَن مع GitHub أو أجهزة أخرى.
 
 ## تشغيل تطبيق iOS وFace ID
